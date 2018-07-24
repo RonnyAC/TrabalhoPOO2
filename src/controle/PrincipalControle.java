@@ -17,6 +17,7 @@ public class PrincipalControle {
     public PrincipalControle(FrmPrincipal visaoPrincipal) {
         this.visaoPrincipal = visaoPrincipal;
         evtBotaoSecretaria();
+        evtBotaoMedico();
     }
 
     public void evtBotaoSecretaria() {
